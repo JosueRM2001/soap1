@@ -1,69 +1,69 @@
 # SOAP
-Este es un proyecto que fue desarrollado con java con una arquitectura Soap.
+This is a project that was developed with java with a Soap architecture.
 
-## Descripción
-Este proyecto muestra la suma de dos valores enteros atraves postman. 
-Es un programa sencillo para mostrar cómo funciona un programa en el lenguaje de programación con un estilo de arquitectura.
+## Description
+This project shows the addition of two integer values ​​through postman.
+It is a simple program to show how a program works in the programming language with an architecture style.
 
-## Tecnologías Utilizadas
-**Contiene lo Siguiente**
-- Visual Studio C# (version mas actual)
+## Technologies Used
+**Contains the Following**
+- Visual Studio C# (most current version)
 - Docker
 - Webhook
 - Postman
 
-## Requerimientos para el Desarrollo
-- **Docker Desktop** (si lo quieres correr en un contenedor)
-- **Visual Studio C#** (opcional, pero recomendado)
-- **Soap**(requerido y recomendado)
-- **GitHub Desktop** (si quieres clonar y usar el proyecto)
-  
-  ```bash
-  https://www.docker.com/products/docker-desktop/
-  ```
-  
-- **Docker hub** (si quieres clonar y usar el proyecto)
-  
-  ```bash
-  https://hub.docker.com/layers/erickjrm/programsoap/latest/images/sha256-76c3272200d35a863fe9edd0ffeac9bd15438aff617c28a800e5cf646f124c9a?context=repo
-  ```
+## Development Requirements
+- **Docker Desktop** (if you want to run it in a container)
+- **Visual Studio C#** (optional, but recommended)
+- **Soap**(required and recommended)
+- **GitHub Desktop** (if you want to clone and use the project)
 
-## Intruciciones para ejecutar el proyecto
-## Pasos para ejecutar
-- **Paso #1**
-  **Clonar este repositorio**
-Si aún no ha clonado el repositorio, puede hacerlo con el siguiente link:
+```bash
+https://www.docker.com/products/docker-desktop/
+```
 
- ```bash
+- **Docker hub** (if you want to clone and use the project)
+
+```bash
+https://hub.docker.com/layers/erickjrm/programsoap/latest/images/sha256-76c3272200d35a863fe9edd0ffeac9bd15438aff617c28a800e5cf646f124c9a?context=repo
+```
+
+## Instructions to run the project
+## Steps to run
+- **Step #1**
+**Clone this repository**
+If you have not yet cloned the repository, you can do so with the following link:
+
+```bash
 https://github.com/JosueRM2001/soap1.git
- ```
-- **Paso #2**
-  **Construya la imagen de Docker**
+```
+- **Step #2**
+**Build the Docker image**
 
-Ejecuta el siguiente comando, que generará la imagen:
+Run the following command, which will generate the image:
 
 ```bash
 docker pull erickjrm/programsoap:latest
 ```
 
-**Paso #3**
-**Ejecute el contenedor Docker:**
+**Step #3**
+**Run the url in postman:**
 
-Luego ejecuta el siguiente comando, en postman.
+Then run the following command, in postman.
 
 ```bash
 https://localhost:7259/Service.asmx/Sum
 ```
 
-**Paso #4**
+**Step #4**
 
-Abre Docker Desktop para ver si la imagen se creó correctamente y envíala a ejecutar para verla.
+Open Docker Desktop to see if the image was built correctly and send it to run to view it.
 
-**Paso #5**
+**Step #5**
 
-**Accede a la aplicación**: Si está ejecutándose, puedes acceder a la aplicación navegando a la
+**Access the application**: If it is running, you can access the application by navigating to the
 
-siguiente url en tu navegador web:
+following url in your web browser:
 
 ```bash
 https://localhost:7259/Service.asmx
