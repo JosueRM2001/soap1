@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("e020b336-f960-4a7b-99a6-0c76dab515ff")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("soap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+734377c992db458c4f3745eeeedf2e0d48179870")]
 [assembly: System.Reflection.AssemblyProductAttribute("soap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("soap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
